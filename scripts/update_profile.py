@@ -217,24 +217,10 @@ def render_chart(days):
     CHART.write_text(svg, encoding="utf-8")
 
 
-def repo_line(repo):
-    name = repo["name"]
-    url = repo["html_url"]
-    language = repo.get("language") or "Mixed"
-    description = repo.get("description") or "Public repository activity from GitHub."
-    updated = repo["updated_at"][:10]
-    fork = " fork" if repo.get("fork") else ""
-    stars = repo.get("stargazers_count", 0)
-    return f"| [{name}]({url}) | `{language}` | `{updated}` | `{stars}` | {description}{fork} |"
-
-
 def render_readme(repos, days):
-    top_repos = repos[:6]
     total_commits = sum(day["count"] for day in days)
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     repo_count = len(repos)
-
-    repo_block = "\n".join(repo_line(repo) for repo in top_repos) or "| - | - | - | - | No public repositories found. |"
 
     readme = f"""<p align="center">
   <img src="assets/profile-hero.svg" alt="Changhexuefei automated GitHub profile hero" width="100%" />
@@ -257,12 +243,6 @@ This profile is rebuilt automatically from public GitHub activity. The layout ke
 <p align="center">
   <img src="assets/commit-activity.svg" alt="Recent public commit activity" width="100%" />
 </p>
-
-## Recently Active
-
-| Repository | Language | Updated | Stars | Focus |
-| --- | --- | --- | ---: | --- |
-{repo_block}
 
 ## Build Direction
 
