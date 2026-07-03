@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="Changhexuefei GitHub profile hero">
+  <defs>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#151515"/>
+      <stop offset="0.55" stop-color="#050505"/>
+      <stop offset="1" stop-color="#101010"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.91  0 1 0 0 0.13  0 0 1 0 0.16  0 0 0 .55 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="520" rx="30" fill="url(#shine)"/>
+  <path d="M78 100H1122" stroke="#f5f5f5" stroke-width="1" opacity=".18"/>
+  <path d="M78 456H1122" stroke="#f5f5f5" stroke-width="1" opacity=".14"/>
+  <path d="M817 112C929 132 1018 188 1084 280" fill="none" stroke="#ffffff" stroke-width="2" opacity=".2"/>
+  <path d="M760 292C884 231 988 232 1102 292" fill="none" stroke="#e82127" stroke-width="5" stroke-linecap="round" filter="url(#softGlow)"/>
+  <circle cx="1092" cy="292" r="6" fill="#e82127"/>
+  <text x="76" y="78" fill="#a8a8a8" font-size="14" font-weight="700" letter-spacing="4">AUTOMATED GITHUB PROFILE</text>
+  <text x="74" y="178" fill="#f7f7f7" font-size="72" font-weight="900" letter-spacing="5">CHANGHEXUEFEI</text>
+  <text x="78" y="228" fill="#d8d8d8" font-size="24" font-weight="500">十年饮冰，热血未凉。</text>
+  <text x="78" y="272" fill="#8d8d8d" font-size="18" font-weight="600">Kotlin · Python · Instrument Control · Data Visualization · Personal Publishing</text>
+  <text x="78" y="306" fill="#6f6f6f" font-size="15">Live data rebuilt on schedule from public GitHub activity · 2026-07-03 15:59 UTC</text>
+  <g>
+    <rect x="76" y="342" width="304" height="96" rx="18" fill="#111" stroke="#2a2a2a"/>
+    <text x="100" y="378" fill="#8f8f8f" font-size="13" font-weight="700" letter-spacing="2">PUBLIC REPOS</text>
+    <text x="100" y="417" fill="#f5f5f5" font-size="26" font-weight="800">12</text>
+  </g><g>
+    <rect x="420" y="342" width="304" height="96" rx="18" fill="#111" stroke="#2a2a2a"/>
+    <text x="444" y="378" fill="#8f8f8f" font-size="13" font-weight="700" letter-spacing="2">14D COMMITS</text>
+    <text x="444" y="417" fill="#f5f5f5" font-size="26" font-weight="800">33</text>
+  </g><g>
+    <rect x="764" y="342" width="304" height="96" rx="18" fill="#111" stroke="#2a2a2a"/>
+    <text x="788" y="378" fill="#8f8f8f" font-size="13" font-weight="700" letter-spacing="2">LATEST FOCUS</text>
+    <text x="788" y="417" fill="#f5f5f5" font-size="26" font-weight="800">changhexuefei</text>
+  </g>
+  <text x="78" y="486" fill="#777" font-size="14" font-weight="700" letter-spacing="2">Kotlin / Python / Java / HTML</text>
+</svg>
