@@ -21,7 +21,7 @@
   <text x="74" y="178" fill="#f7f7f7" font-size="72" font-weight="900" letter-spacing="5">CHANGHEXUEFEI</text>
   <text x="78" y="228" fill="#d8d8d8" font-size="24" font-weight="500">十年饮冰，热血未凉。</text>
   <text x="78" y="272" fill="#8d8d8d" font-size="18" font-weight="600">Kotlin · Python · Instrument Control · Data Visualization · Personal Publishing</text>
-  <text x="78" y="306" fill="#6f6f6f" font-size="15">Live data rebuilt on schedule from public GitHub activity · 2026-07-22 08:42 UTC</text>
+  <text x="78" y="306" fill="#6f6f6f" font-size="15">Live data rebuilt on schedule from public GitHub activity · 2026-07-22 14:20 UTC</text>
   <g>
     <rect x="76" y="342" width="304" height="96" rx="18" fill="#111" stroke="#2a2a2a"/>
     <text x="100" y="378" fill="#8f8f8f" font-size="13" font-weight="700" letter-spacing="2">PUBLIC REPOS</text>
@@ -29,7 +29,7 @@
   </g><g>
     <rect x="420" y="342" width="304" height="96" rx="18" fill="#111" stroke="#2a2a2a"/>
     <text x="444" y="378" fill="#8f8f8f" font-size="13" font-weight="700" letter-spacing="2">14D COMMITS</text>
-    <text x="444" y="417" fill="#f5f5f5" font-size="26" font-weight="800">53</text>
+    <text x="444" y="417" fill="#f5f5f5" font-size="26" font-weight="800">54</text>
   </g><g>
     <rect x="764" y="342" width="304" height="96" rx="18" fill="#111" stroke="#2a2a2a"/>
     <text x="788" y="378" fill="#8f8f8f" font-size="13" font-weight="700" letter-spacing="2">LATEST FOCUS</text>
